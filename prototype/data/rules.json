@@ -1,0 +1,113 @@
+[
+  {
+    "id": "transmission_threshold_physical",
+    "version": 1,
+    "value": 200000,
+    "effective_from": "2016-09-15",
+    "effective_to": "2022-04-25",
+    "source": "SEBI circular SEBI/HO/MIRSD3/CIR/P/2016/0000000085, 15 Sep 2016, Annexure A: above Rs 2 lakh per company, a succession certificate or probate is required",
+    "owner": "rules owner (to be assigned)",
+    "review_by": "2027-03-31"
+  },
+  {
+    "id": "transmission_threshold_physical",
+    "version": 2,
+    "value": 500000,
+    "effective_from": "2022-04-26",
+    "effective_to": null,
+    "source": "SEBI LODR amendment (Board approval 29 Mar 2022, notified Apr 2022; effective date taken from PTI report of 27 Apr 2022, verify against the Gazette); SEBI FAQ Jan 2026, Q72: up to Rs 5 lakh per listed entity for physical shares",
+    "owner": "rules owner (to be assigned)",
+    "review_by": "2027-03-31"
+  },
+  {
+    "id": "legal_heir_certificate_accepted",
+    "version": 1,
+    "value": false,
+    "effective_from": "2016-09-15",
+    "effective_to": "2022-04-25",
+    "source": "SEBI circular, 15 Sep 2016: simplified route uses NOC or family settlement deed plus indemnity bond",
+    "owner": "rules owner (to be assigned)",
+    "review_by": "2027-03-31"
+  },
+  {
+    "id": "legal_heir_certificate_accepted",
+    "version": 2,
+    "value": true,
+    "effective_from": "2022-04-26",
+    "effective_to": null,
+    "source": "SEBI LODR amendment 2022: a legal heirship certificate issued by a competent government authority is acceptable",
+    "owner": "rules owner (to be assigned)",
+    "review_by": "2027-03-31"
+  },
+  {
+    "id": "heir_certificate_issuer",
+    "version": 1,
+    "state": "Maharashtra",
+    "value": "Tehsil office",
+    "effective_from": "1900-01-01",
+    "effective_to": null,
+    "source": "Practitioner interview (Nagpur). Not yet verified against Maharashtra Revenue Department guidance",
+    "owner": "rules owner (to be assigned)",
+    "review_by": "2026-06-30"
+  },
+  {
+    "id": "iepf_transfer_years",
+    "version": 1,
+    "value": 7,
+    "effective_from": "1900-01-01",
+    "effective_to": null,
+    "source": "Companies Act 2013, section 124(6): shares move to IEPF when dividends are unpaid for seven consecutive years",
+    "owner": "rules owner (to be assigned)",
+    "review_by": "2027-03-31"
+  },
+  {
+    "id": "iepf_transmission_first",
+    "version": 1,
+    "value": true,
+    "effective_from": "1900-01-01",
+    "effective_to": null,
+    "source": "IEPF-5 claim instruction kit: a legal heir must have transmission completed by the company before filing a claim with the IEPF Authority",
+    "owner": "rules owner (to be assigned)",
+    "review_by": "2027-03-31"
+  },
+  {
+    "id": "surety_for_indemnity",
+    "version": 1,
+    "value": "The company may ask for a surety on the IEPF indemnity bond",
+    "effective_from": "1900-01-01",
+    "effective_to": null,
+    "source": "Practitioner interview (Nagpur). Confirm with the company's nodal officer",
+    "owner": "rules owner (to be assigned)",
+    "review_by": "2027-03-31"
+  },
+  {
+    "id": "name_variance_affidavit",
+    "version": 1,
+    "value": "Affidavit declaring that both names belong to the same person",
+    "effective_from": "1900-01-01",
+    "effective_to": null,
+    "source": "Practitioner interview (Nagpur): registrar returned papers because the certificate name did not match PAN",
+    "owner": "rules owner (to be assigned)",
+    "review_by": "2027-03-31"
+  },
+  {
+    "id": "dea_transfer_years",
+    "version": 1,
+    "value": 10,
+    "effective_from": "1900-01-01",
+    "effective_to": null,
+    "source": "Banking Regulation Act 1949, section 26A; RBI DEA Fund Scheme 2014: deposits unclaimed for 10 years move to the DEA Fund",
+    "owner": "rules owner (to be assigned)",
+    "review_by": "2027-03-31"
+  },
+  {
+    "id": "dea_claim_route",
+    "version": 1,
+    "value": "Claim at the same bank. Money in the DEA Fund remains payable to the depositor or legal heirs; the bank pays and claims it back from RBI",
+    "effective_from": "1900-01-01",
+    "effective_to": null,
+    "source": "RBI DEA Fund Scheme 2014; RBI UDGAM FAQ Q5: claims are settled only by the respective bank",
+    "owner": "rules owner (to be assigned)",
+    "review_by": "2027-03-31"
+  }
+]

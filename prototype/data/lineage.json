@@ -1,0 +1,106 @@
+{
+  "_note": "Corporate lineage graph. Events marked synthetic are invented for testing. Real events cite a public filing; verify against the filing before relying on them.",
+  "companies": {
+    "tisco": {
+      "name": "The Tata Iron and Steel Company Limited",
+      "aliases": ["TISCO", "Tata Iron & Steel Co. Ltd."],
+      "synthetic": false
+    },
+    "tata_steel": {
+      "name": "Tata Steel Limited",
+      "aliases": [],
+      "synthetic": false
+    },
+    "hdfc_ltd": {
+      "name": "Housing Development Finance Corporation Limited",
+      "aliases": ["HDFC Ltd", "HDFC Limited"],
+      "synthetic": false
+    },
+    "hdfc_bank": {
+      "name": "HDFC Bank Limited",
+      "aliases": [],
+      "synthetic": false
+    },
+    "vidarbha_cotton": {
+      "name": "Vidarbha Cotton Processors Limited",
+      "aliases": [],
+      "synthetic": true
+    },
+    "central_india_agro": {
+      "name": "Central India Agro Industries Limited",
+      "aliases": [],
+      "synthetic": true
+    },
+    "deccan_textile": {
+      "name": "Deccan Textile Mills Limited",
+      "aliases": [],
+      "synthetic": true
+    }
+  },
+  "events": [
+    {
+      "id": "tisco-bonus-2004",
+      "type": "bonus",
+      "company": "tisco",
+      "ratio": "1/2",
+      "date": "2004-08-12",
+      "source": "Bonus 1:2, record date 12 Aug 2004 (BSE corporate action history for scrip 500470)",
+      "synthetic": false
+    },
+    {
+      "id": "tisco-rename-2005",
+      "type": "rename",
+      "from": "tisco",
+      "to": "tata_steel",
+      "date": "2005-08-12",
+      "source": "Fresh certificate of incorporation on change of name, Registrar of Companies Mumbai, 12 Aug 2005 (printed in Tata Steel's Memorandum of Association)",
+      "synthetic": false
+    },
+    {
+      "id": "tata-steel-split-2022",
+      "type": "split",
+      "company": "tata_steel",
+      "ratio": "10",
+      "date": "2022-07-29",
+      "source": "BSE notice 20220711-37: one Rs 10 share into ten Re 1 shares, record date 29 Jul 2022",
+      "synthetic": false
+    },
+    {
+      "id": "hdfc-merger-2023",
+      "type": "merger",
+      "from": "hdfc_ltd",
+      "to": "hdfc_bank",
+      "ratio": "42/25",
+      "date": "2023-07-01",
+      "source": "Scheme of amalgamation of HDFC Ltd into HDFC Bank, effective 1 Jul 2023: 42 HDFC Bank shares for every 25 HDFC Ltd shares",
+      "synthetic": false
+    },
+    {
+      "id": "hdfc-bank-bonus-2025",
+      "type": "bonus",
+      "company": "hdfc_bank",
+      "ratio": "1/1",
+      "date": "2025-08-27",
+      "source": "BSE notice 20250822-84: bonus 1:1, record date 27 Aug 2025",
+      "synthetic": false
+    },
+    {
+      "id": "vidarbha-merger-2008",
+      "type": "merger",
+      "from": "vidarbha_cotton",
+      "to": "central_india_agro",
+      "ratio": "3/5",
+      "date": "2008-04-01",
+      "source": "SYNTHETIC: invented scheme, 3 new shares for every 5 old shares",
+      "synthetic": true
+    },
+    {
+      "id": "deccan-struck-off-2012",
+      "type": "struck_off",
+      "company": "deccan_textile",
+      "date": "2012-06-30",
+      "source": "SYNTHETIC: invented strike-off by the Registrar of Companies",
+      "synthetic": true
+    }
+  ]
+}

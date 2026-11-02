@@ -1,0 +1,6 @@
+{
+  "_note": "Illustrative reference prices for the value estimate only. Not live quotes. The registrar and the market decide the real value.",
+  "tata_steel": { "price": 160, "as_of": "illustrative" },
+  "hdfc_bank": { "price": 1000, "as_of": "illustrative" },
+  "central_india_agro": { "price": 420, "as_of": "synthetic company" }
+}

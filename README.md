@@ -22,9 +22,18 @@ Jurisdiction: India (heir documents shown for Maharashtra).
 
 ## Repository contents
 
-| File | What it is |
+| Path | What it is |
 |---|---|
 | `Virasat_Brief_Surbhi_Rathore.pdf` | The written brief, with the appendix on what I added beyond the AI |
+| [`prototype/`](prototype/) | Working prototype (Node.js, no dependencies) with 17 test cases. See its [README](prototype/README.md) to run it, and [RESULTS.md](prototype/RESULTS.md) for results |
+
+Quick start:
+
+```bash
+cd prototype
+node run.mjs            # all test cases
+node run.mjs --case 14  # full claim plan for the interview case
+```
 
 ## Data
 

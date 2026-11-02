@@ -1,0 +1,14 @@
+{
+  "name": "virasat-prototype",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Virasat prototype: turns a family's old share certificates and deposit receipts into an ordered, cited claim plan.",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node run.mjs",
+    "llm": "node run.mjs --llm"
+  }
+}
