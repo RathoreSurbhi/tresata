@@ -25,6 +25,7 @@ Jurisdiction: India (heir documents shown for Maharashtra).
 | Path | What it is |
 |---|---|
 | `Virasat_Brief_Surbhi_Rathore.pdf` | The written brief, with the appendix on what I added beyond the AI |
+| `Virasat_Video.mp4` | 2 min 44 s animated explainer: the problem, the design, a prototype demo and what failed. Source in [`video/`](video/) |
 | [`prototype/`](prototype/) | Working prototype (Node.js, no dependencies) with 17 test cases. See its [README](prototype/README.md) to run it, and [RESULTS.md](prototype/RESULTS.md) for results |
 
 Quick start:
